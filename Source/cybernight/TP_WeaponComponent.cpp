@@ -26,6 +26,11 @@ void UTP_WeaponComponent::Fire()
 		return;
 	}
 
+	if (Character->NoOfAmmo <= 0) {
+		return;
+	}
+
+	
 	// Try and fire a projectile
 	if (ProjectileClass != nullptr)
 	{
@@ -43,6 +48,7 @@ void UTP_WeaponComponent::Fire()
 	
 			// Spawn the projectile at the muzzle
 			World->SpawnActor<AcybernightProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+			Character->NoOfAmmo--;
 		}
 	}
 	

@@ -20,7 +20,7 @@ AcybernightCharacter::AcybernightCharacter()
 {
 	// Character doesnt have a rifle at start
 	bHasRifle = false;
-	
+	NoOfAmmo = 10;
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
 		
