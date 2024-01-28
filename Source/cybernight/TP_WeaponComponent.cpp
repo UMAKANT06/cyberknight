@@ -20,6 +20,7 @@ UTP_WeaponComponent::UTP_WeaponComponent()
 
 void UTP_WeaponComponent::Fire()
 {
+	
 	if (Character == nullptr || Character->GetController() == nullptr)
 	{
 		return;
