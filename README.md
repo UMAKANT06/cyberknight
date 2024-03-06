@@ -3,7 +3,7 @@
  Gamers allow me to introduce you to CyberKnight, a captivating 3D interactive game meticulously crafted to immerse players in the dynamic world of cybersecurity. Picture yourself as the valiant antivirus, standing as the last line of defense against insidious viruses threatening our digital city.
 
 Gameplay Synopsis:
- Role: Assume the mantle of CyberKnight, the city’s digital guardian.
+    Role: Assume the mantle of CyberKnight, the city’s digital guardian.
 
  Mission: Protect the metropolis from relentless virus attacks.
 
